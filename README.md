@@ -2,32 +2,27 @@
 
 ### Deskripsi singkat program
 
-Program dalam bahasa Python untuk membuat sebuah pustaka (library) myConvexHull yang dapat mengembalikan convex hull dari kumpulan data 2 dimensi (dapat dianggap kumpulan 
-titik 2 dimensi).
+Program dalam bahasa Java yang dibuat untuk menyelesaikan Word Search Puzzle dengan mengimplementasikan Algoritma Brute Force baik dengan Teknik Heuristik maupun tanpa Teknik Heuristik pada mata kuliah Strategi Algoritma IF2211. Program akan membaca file yang berisi puzzle dan kata-kata yang ingin dicari, lalu program akan mengeluarkan setiap kata pada layar.
 
 ### Requirement program dan instalasi
 
-Pengunduhan Python dapat dilakukan melalui situs berikut.
+### Requirement program dan instalasi
 
-https://www.python.org/downloads/
+Pengunduhan Java Development Kit dapat dilakukan melalui situs berikut.
 
-Pengunduhan Jupyter Notebook melalui Python Package Index (PIP) dapat dilakukan dengan perintah berikut pada terminal
-```
-> pip install notebook
-```
-Atau pengunduhan aplikasi Jupyter Notebook dapat dilakukan melalui Anaconda dalam situs berikut.
-
-https://www.anaconda.com/products/individual
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
 ### Cara menggunakan program
 
-- Jika ingin menjalankan Jupyter Notebook yang sudah diinstal melalui PIP, jalankan perintah berikut pada terminal
+Jika ingin melakukan kompilasi terhadap source code, jalankan perintah berikut di terminal pada direktori src/Heuristic atau src/WithoutHeuristic
 ```
-> jupyter notebook
+> javac Matrix.java
+> javac Main.java
 ```
-Atau jika sudah memiliki aplikasi Jupyter Notebook dari Anaconda, dapat langsung dibuka dan dijalankan
-- Buka file "main.ipynb" yang terdapat pada direktori src pada Jupyter Notebook
-- Klik "Run" untuk menjalankan program dan visualisasinya 
+Jika ingin mengeksekusi program, jalankan perintah berikut di terminal pada direktori sebelumnya hasil kompilasi atau secara langsung pada direktori bin/Heuristic atau bin/WithoutHeuristic
+```
+> java Main
+```
 
 ### Author
 Willy Wilsen - 13520160
