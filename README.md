@@ -6,8 +6,6 @@ Program dalam bahasa Java yang dibuat untuk menyelesaikan Word Search Puzzle den
 
 ### Requirement program dan instalasi
 
-### Requirement program dan instalasi
-
 Pengunduhan Java Development Kit dapat dilakukan melalui situs berikut.
 
 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
